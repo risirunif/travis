@@ -4,4 +4,4 @@ services:
   - docker
 
 before_install:
-  - docker build -t brahim777/monero .
+  - docker build -t carlad/sinatra .
