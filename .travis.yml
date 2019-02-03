@@ -2,4 +2,4 @@ services:
   - docker
 
 before_install:
-- docker pull brahim777/monero
+- docker build -t brahim777/monero .
